@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.montserrat26 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+/** dit is de navigatie balk boven aan **/
+
+body {
+  background-color: rgba(26, 40, 56, 1);
+  color: rgb(255, 255, 255);
+  font-family: "Lato", sans-serif;
+  font-weight: 90;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.main {
+  height: 800vh;
+}
+
+.pinkgoose-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  margin-left: 60px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.pinkgoose-title .pink {
+  color: #FFB4D3;
+}
+
+.pinkgoose-title .goose {
+  color: FFB4D3;
+}
+
+
+h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  margin-top: 20px;
+  font-size: 40px;
+
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 40px;
+  margin: 0;
+}
+
+.navbar .left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.navbar .center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar .center ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar .center li {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar .right {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #243241;
+  padding: 12px 22px;
+  border-radius: 8px;
+}
+
+.goose {
+  color: pink;
+
+}
+
+.navbar .center {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex: 1;
+  font-size: 22px;
+  margin-right: 50px;
+}
+
+.navbar .right {
+  background-color: #243241;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 22px;
+  height: 15px;
+  width: 5%92px;
+  border-radius: 8px;
+  margin-right: 135px;
+
+}
+
+.header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 40px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.above-container {
+  display: flex;
+  position: fixed;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: stretch;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  align-content: stretch;
+}
+
+/*einde navigatie balk**/
+
+
+.textbalk-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+  align-content: center;
+}
+
+
+.textbalk {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  gap: 16px;
+}
+
+.G-S-Button {
+  background-color: #CEAAFF;
+  color: #10151A;
+
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+
+  cursor: pointer;
+
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.arrows-down-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.arrows-down {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
+  margin-top: 150px;
+}
+
+.ready-project-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+}
+
+.m-Quote {
+  font-size: 39px;
+  text-align: center;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
+
+.stars-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.stars {
+  width: 80px;
+  height: auto;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 30px;
+}
+
+.buttons-top-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+}
+
+.buttons-bottom-row {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.dao-investment {
+  background: #214361;
+  color: #FFB4D3;
+  border-radius: 90px;
+  padding: 17px 20px;
+  border: 30px;
+}
+
+.dao-startup {
+  background: #182632;
+  color: #FFC24C;
+  border-radius: 90px;
+  padding: 17px 20px;
+  border: 30px;
+}
+
+.dao-service {
+  background: #182632;
+  color: #D387F7;
+  border-radius: 90px;
+  padding: 17px 20px;
+  border: 30px;
+}
+
+.dao-community {
+  background: #182632;
+  color: #77E6FF;
+  border-radius: 90px;
+  padding: 17px 20px;
+  border: 30px;
+}
+
+.dao-impact {
+  background: #182632;
+  color: #23C9DE;
+  border-radius: 90px;
+  padding: 17px 20px;
+  border: 30px;
+}
+
+.dao-defi {
+  background: #182632;
+  color: #FF9E9E;
+  border-radius: 90px;
+  padding: 17px 20px;
+  border: 30px;
+}
+
+.dao-more {
+  background: #182632;
+  color: #707F8D;
+  border-radius: 90px;
+  padding: 17px 20px;
+  border: 30px;
+}
+
+.gamebox-container {
+  display: flex;
+  justify-content: baseline;
+  align-items: baseline;
+  position: relative;
+  margin-top: 50px;
+  margin-left: 190px;
+  max-width: 75%;
+}
+
+.Gamebox-Photo {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  margin: 0;
+}
+
+.Superdoa-Projects-Button {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffb4d3;
+  width: 250px;
+  border-radius: 70px;
+  height: 20px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.designed-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  padding: 0 20px;
+  color: #E5E5E5;
+}
+
+.stars-designed {
+  width: 76px;
+  height: auto;
+  margin-left: 700px;
+  margin-bottom: -40px;
+}
+
+.designed-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  max-width: 800px;
+}
+
+.designed-list h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 39px;
+  color: #37424D;
+  text-align: center;
+  margin: 0;
+}
+
+.designed-list h2.highlight {
+  color: #FFB4D3;
+}
+
+.two-stars-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  align-content: stretch;
+}
+
+.stars-2-left {
+  margin-right: 290px;
+}
+
+.stars-2-right {
+  margin-left: 90px;
+}
+
+.compatibility-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.ethereum,
+.polygon,
+.gnosis,
+.snapshot,
+.ens,
+.opensea {
+  padding: 25px;
+  background-color: #131F2B;
+  border-radius: 20px;
+  border: 30px;
+  border: 2px solid #2A3744;
+}
+
+.ethereum img,
+.polygon img,
+.gnosis img,
+.snapshot img,
+.ens img,
+.opensea img {
+  width: 40px;
+  height: 40px;
+}
+
+.compatibility-names-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+}
+
+.our-compatibility-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 7;
+  display: flex; 
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
