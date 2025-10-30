@@ -1092,7 +1092,7 @@ a {
 
 .form-textarea {
   width: 506px;
-  height: 310px;
+  min-height: 310px;
   background: #121E28;
   border: 2px solid #2A3744;
   border-radius: 16px;
@@ -1103,7 +1103,6 @@ a {
   font-size: 20px;
   color: #FFFFFF;
   margin-bottom: 30px;
-
 }
 
 .form-textarea::placeholder {
